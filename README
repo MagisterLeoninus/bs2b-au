@@ -1,0 +1,3 @@
+AudioUnit wrapper for bs2b.
+
+To build, you should have a source tree named CoreAudio under Preferences -> Locations -> Source Trees which points to the CoreAudio directory from the Audio Tools for Xcode DMG.

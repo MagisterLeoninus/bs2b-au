@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'bs2b-au' target in the 'bs2b-au' project
+//
+
+//#ifdef __OBJC__
+//    #import <Cocoa/Cocoa.h>
+//#endif
+
+//#include "AUEffectBase.h"
