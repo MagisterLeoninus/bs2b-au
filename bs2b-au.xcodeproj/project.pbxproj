@@ -23,10 +23,10 @@
 		6E54D0D41581098B00CECB0D /* AUScopeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D0CB1581098B00CECB0D /* AUScopeElement.cpp */; };
 		6E54D0D51581098B00CECB0D /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D0CD1581098B00CECB0D /* ComponentBase.cpp */; };
 		6E54D0DC15810A4900CECB0D /* AUEffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D0DA15810A4900CECB0D /* AUEffectBase.cpp */; };
-		6E54D0DF15810BEB00CECB0D /* bs2b-au.r in Rez */ = {isa = PBXBuildFile; fileRef = 6E54D0DD15810BCA00CECB0D /* bs2b-au.r */; };
 		6E54D0E415811DD500CECB0D /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D0E215811DD500CECB0D /* CAStreamBasicDescription.cpp */; };
 		6E54D0EB15811E7C00CECB0D /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D0E815811E2200CECB0D /* CAVectorUnit.cpp */; };
 		6E54D0EC15811E8100CECB0D /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D0E515811DF400CECB0D /* CAAudioChannelLayout.cpp */; };
+		6EC5971D158176C50096B576 /* bs2b-au.r in Rez */ = {isa = PBXBuildFile; fileRef = 6E54D0DD15810BCA00CECB0D /* bs2b-au.r */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -303,7 +303,7 @@
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E54D0DF15810BEB00CECB0D /* bs2b-au.r in Rez */,
+				6EC5971D158176C50096B576 /* bs2b-au.r in Rez */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +406,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-bundle";
-				OTHER_REZFLAGS = "-d i386_$i386 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I $(CoreAudio)/AudioUnits/AUPublic/AUBase\n\n";
+				OTHER_REZFLAGS = "-d i386_$i386 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I $(CoreAudio)/AudioUnits/AUPublic/AUBase/\n\n";
 				PRODUCT_NAME = "bs2b-au";
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
@@ -432,7 +432,7 @@
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Audio/Plug-Ins/Components";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				OTHER_LDFLAGS = "-bundle";
-				OTHER_REZFLAGS = "-d i386_$i386 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I $(CoreAudio)/AudioUnits/AUPublic/AUBase\n\n";
+				OTHER_REZFLAGS = "-d i386_$i386 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I $(CoreAudio)/AudioUnits/AUPublic/AUBase/\n\n";
 				PRODUCT_NAME = "bs2b-au";
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,

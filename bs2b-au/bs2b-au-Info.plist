@@ -2,6 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AudioComponents</key>
+	<dict>
+		<key>description</key>
+		<string>crossfeed</string>
+		<key>factoryFunction</key>
+		<string>BS2BFactory</string>
+		<key>manufacturer</key>
+		<string>acme</string>
+		<key>name</key>
+		<string>Banane: BS2B</string>
+		<key>subtype</key>
+		<string>BS2B</string>
+		<key>type</key>
+		<string>aufx</string>
+		<key>version</key>
+		<integer>65536</integer>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
