@@ -1,7 +1,15 @@
 BS2B AudioUnit wrapper for use with OS X host applications.
 
+To use the AudioUnit, install the contents of the zip-file (see "Downloads" top right) to ${YOUR_HOME_DIRECTORY}/Library/Audio/Plug-Ins/Components/ (you get to the library folder by option-clicking the Go-Menu in the Finder, for example).  Using Jack [1] or Soundflower [2], you can then feed the output of your Applications to e.g. AU Lab and enjoy the crossfeed.
+
 To build, you should have a source tree named CoreAudio under Preferences -> Locations -> Source Trees which points to the CoreAudio directory from the Xcode Audio Tools.
 
-A big thank you to Fred Ghilini [1] for explaining the necessary Xcode project settings!
+Presets are currently not working.
 
-[1] http://sample-hold.com/2011/11/23/getting-started-with-audio-units-on-os-x-lion-and-xcode-4-2-1/
+A big thank you to Boris Mikhaylov for, you know, writing BS2B [3], to the MDA Plug-Ins Project [4] for the stereo plugin code, and to Fred Ghilini [5] for explaining the necessary Xcode project settings!
+
+[1] http://www.jackosx.com/
+[2] http://code.google.com/p/soundflower/
+[3] http://bs2b.sourceforge.net/
+[4] http://mda.smartelectronix.com/ and http://sourceforge.net/projects/mda-vst/
+[5] http://sample-hold.com/2011/11/23/getting-started-with-audio-units-on-os-x-lion-and-xcode-4-2-1/
